@@ -7,6 +7,7 @@ phases:
        - python --version
        - python -m pip --version
        - python -m pip install --upgrade pip
+       - python -m pip --version
   build:
     commands:
       - echo Build started on `date`
