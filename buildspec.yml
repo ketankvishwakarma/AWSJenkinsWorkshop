@@ -6,6 +6,7 @@ phases:
        # - python -m pip install Flask
        - python --version
        - python -m pip --version
+       - python -m pip install --upgrade pip
   build:
     commands:
       - echo Build started on `date`
